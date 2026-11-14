@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "churn-model-flip-audit"
+version = "1.0.0"
+description = "First-class prediction flip auditing, SQL window feature pipeline, McNemar paired testing, and cost-crossover analysis for model upgrades."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "tabulate>=0.9",
+]
+
+[project.scripts]
+churn-flip-audit = "churn_flip_audit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
