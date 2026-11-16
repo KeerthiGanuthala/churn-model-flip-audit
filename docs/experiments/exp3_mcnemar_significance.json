@@ -1,0 +1,72 @@
+{
+  "experiment_id": "exp3_mcnemar_significance",
+  "title": "Is the Gain Real: McNemar's Exact Test vs Unpaired Two-Proportion Fallacy",
+  "mcnemar_overall": {
+    "discordant_pairs": 934,
+    "fixed_b": 699,
+    "newly_broken_c": 235,
+    "win_share_among_discordant": 0.748394,
+    "exact_p_value": 4.0519969237451176e-54,
+    "exact_log10_p_value": -53.3923,
+    "chi2_stat_uncorrected": 230.5096,
+    "chi2_stat_edwards_corrected": 229.5171
+  },
+  "paired_vs_unpaired": {
+    "n_total": 4002,
+    "p_baseline": 0.766367,
+    "p_challenger": 0.882309,
+    "accuracy_delta": 0.115942,
+    "se_paired": 0.007413,
+    "se_unpaired_wrong": 0.008408,
+    "se_inflation_ratio_unpaired_over_paired": 1.1341,
+    "variance_inflation_ratio": 1.2862,
+    "z_stat_paired": 15.6396,
+    "z_stat_unpaired_wrong": 13.7902,
+    "min_test_n_80pct_power_observed_gain_paired": 134,
+    "min_test_n_80pct_power_observed_gain_unpaired_wrong": 168,
+    "min_test_n_80pct_power_2pt_gain_paired": 4578,
+    "min_test_n_80pct_power_2pt_gain_unpaired_wrong": 5644
+  },
+  "by_plan_tier_mcnemar": [
+    {
+      "plan_tier": "free_trial",
+      "n": 793,
+      "fixed": 140,
+      "newly_broken": 10,
+      "accuracy_delta": 0.163934,
+      "chi2_edwards": 110.94,
+      "exact_p_value": 1.7629282549387198e-30,
+      "direction": "challenger_wins"
+    },
+    {
+      "plan_tier": "starter",
+      "n": 1503,
+      "fixed": 308,
+      "newly_broken": 27,
+      "accuracy_delta": 0.186959,
+      "chi2_edwards": 234.0299,
+      "exact_p_value": 1.4696905329879884e-61,
+      "direction": "challenger_wins"
+    },
+    {
+      "plan_tier": "pro",
+      "n": 1233,
+      "fixed": 235,
+      "newly_broken": 18,
+      "accuracy_delta": 0.175994,
+      "chi2_edwards": 184.4111,
+      "exact_p_value": 2.2679851337901662e-49,
+      "direction": "challenger_wins"
+    },
+    {
+      "plan_tier": "enterprise",
+      "n": 473,
+      "fixed": 16,
+      "newly_broken": 180,
+      "accuracy_delta": -0.346723,
+      "chi2_edwards": 135.5561,
+      "exact_p_value": 2.638496790073136e-36,
+      "direction": "challenger_loses"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "experiment_id": "exp1_headline_flip_matrix",
+  "title": "What the Aggregate Gain Hides",
+  "summary": {
+    "n": 4002,
+    "population_share": 1.0,
+    "both_right": 2832,
+    "fixed": 699,
+    "newly_broken": 235,
+    "both_wrong": 236,
+    "fixed_tp": 375,
+    "fixed_tn": 324,
+    "broken_fn": 126,
+    "broken_fp": 109,
+    "baseline_correct": 3067,
+    "challenger_correct": 3531,
+    "net_gain_count": 464,
+    "baseline_accuracy": 0.766367,
+    "challenger_accuracy": 0.882309,
+    "accuracy_delta": 0.115942,
+    "fixed_rate": 0.174663,
+    "newly_broken_rate": 0.058721,
+    "discordant_count": 934,
+    "discordant_rate": 0.233383,
+    "broken_per_100_fixed": 33.62
+  },
+  "contingency_matrix_2x2": [
+    {
+      "baseline_outcome": "Baseline Correct",
+      "challenger_correct": 2832,
+      "challenger_wrong": 235,
+      "row_total": 3067
+    },
+    {
+      "baseline_outcome": "Baseline Wrong",
+      "challenger_correct": 699,
+      "challenger_wrong": 236,
+      "row_total": 935
+    }
+  ]
+}

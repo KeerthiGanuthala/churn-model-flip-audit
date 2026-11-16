@@ -1,0 +1,112 @@
+{
+  "experiment_id": "exp4_cost_ratio_crossover",
+  "title": "When a 12-Point Accuracy Gain Is a Business Loss",
+  "headline_accuracy_delta": 0.115942,
+  "crossover_ratio_high_value_enterprise": 3.5778,
+  "crossover_ratio_uniform_all_broken": 2.9745,
+  "actual_enterprise_to_starter_mcv_ratio": 25.51,
+  "actual_enterprise_to_pro_mcv_ratio": 6.28,
+  "contract_dollar_valuation": {
+    "contract_dollars_gained_from_fixed": 349567.57,
+    "contract_dollars_lost_from_broken": 926932.95,
+    "net_contract_dollars": -577365.38
+  },
+  "cost_ratio_sweep": [
+    {
+      "cost_ratio_r": 1.0,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": 464.0,
+      "is_net_loss": false
+    },
+    {
+      "cost_ratio_r": 2.0,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": 284.0,
+      "is_net_loss": false
+    },
+    {
+      "cost_ratio_r": 2.5,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": 194.0,
+      "is_net_loss": false
+    },
+    {
+      "cost_ratio_r": 3.0,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": 104.0,
+      "is_net_loss": false
+    },
+    {
+      "cost_ratio_r": 3.5,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": 14.0,
+      "is_net_loss": false
+    },
+    {
+      "cost_ratio_r": 3.5778,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": -0.004,
+      "is_net_loss": true
+    },
+    {
+      "cost_ratio_r": 4.0,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": -76.0,
+      "is_net_loss": true
+    },
+    {
+      "cost_ratio_r": 5.0,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": -256.0,
+      "is_net_loss": true
+    },
+    {
+      "cost_ratio_r": 7.5,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": -706.0,
+      "is_net_loss": true
+    },
+    {
+      "cost_ratio_r": 10.0,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": -1156.0,
+      "is_net_loss": true
+    },
+    {
+      "cost_ratio_r": 15.0,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": -2056.0,
+      "is_net_loss": true
+    },
+    {
+      "cost_ratio_r": 25.0,
+      "fixed_total": 699,
+      "newly_broken_standard": 55,
+      "newly_broken_enterprise": 180,
+      "net_utility_units": -3856.0,
+      "is_net_loss": true
+    }
+  ]
+}
